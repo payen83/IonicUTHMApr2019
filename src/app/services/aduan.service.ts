@@ -6,7 +6,9 @@ import { HttpClient } from '@angular/common/http';
 })
 export class AduanService {
 
-  baseURL: string = 'http://localhost:8888/helpdesk/api';
+  baseURL: string = 'http://localhost/helpdesk/api';
+  // baseURL: string = 'http://helpdesk.appsmalaya.com/api';
+
 
   constructor(public http: HttpClient) { }
 
